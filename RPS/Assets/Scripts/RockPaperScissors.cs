@@ -47,6 +47,19 @@ public class RockPaperScissors : MonoBehaviour {
 		}
 	}
 
+	//Debug game enders
+//	public void DebugButton(int debugButton){
+//		if (buttonsEnabled == true) {
+//			if (debugButton == 1) {
+//				enemyLives = 1;
+//				DoBattle (1, 3);
+//			} else if (debugButton == 2) {
+//				playerLives = 1;
+//				DoBattle (3, 1);
+//			}
+//		}
+//	}
+
 	private void DoBattle(int playerChoice, int enemyChoice){
 		if (playerChoice == enemyChoice) {
 			gameOutputText.text += "\nThe enemy chose the same and you have drawn!";
