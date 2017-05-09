@@ -1,3 +1,8 @@
 hello
+<<<<<<< .mine
 SALUTATIONS!
-This is fucked
+
+Total BS||||||| .r8
+SALUTATIONS!=======
+SALUTATIONS!
+This is fucked>>>>>>> .r9
